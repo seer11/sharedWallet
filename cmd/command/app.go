@@ -3,7 +3,8 @@ package command
 import (
 	"context"
 	"errors"
-	"github.com/StevenRojas/sharedWallet/config"
+
+	"github.com/seer11/sharedWallet/config"
 	"github.com/spf13/cobra"
 )
 

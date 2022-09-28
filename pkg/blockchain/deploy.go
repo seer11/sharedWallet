@@ -2,11 +2,12 @@ package blockchain
 
 import (
 	"context"
-	contracts "github.com/StevenRojas/sharedWallet/contracts/interfaces"
+
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/ethclient"
+	contracts "github.com/seer11/sharedWallet/contracts/interfaces"
 )
 
 // Deployer interface

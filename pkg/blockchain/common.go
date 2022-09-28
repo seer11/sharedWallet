@@ -4,15 +4,16 @@ import (
 	"context"
 	"crypto/ecdsa"
 	"errors"
-	"github.com/StevenRojas/sharedWallet/config"
-	contracts "github.com/StevenRojas/sharedWallet/contracts/interfaces"
+	"math/big"
+	"regexp"
+
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/params"
-	"math/big"
-	"regexp"
+	"github.com/seer11/sharedWallet/config"
+	contracts "github.com/seer11/sharedWallet/contracts/interfaces"
 )
 
 var (

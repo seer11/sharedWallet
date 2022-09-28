@@ -4,14 +4,15 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	contracts "github.com/StevenRojas/sharedWallet/contracts/interfaces"
-	"github.com/ethereum/go-ethereum/accounts/abi/bind"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"golang.org/x/sync/errgroup"
 	"log"
 	"math/big"
 	"time"
+
+	"github.com/ethereum/go-ethereum/accounts/abi/bind"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/ethclient"
+	contracts "github.com/seer11/sharedWallet/contracts/interfaces"
+	"golang.org/x/sync/errgroup"
 )
 
 // Monitor interface

@@ -2,12 +2,13 @@ package main
 
 import (
 	"context"
-	"github.com/StevenRojas/sharedWallet/cmd/command"
 	"log"
 	"os"
 	"os/signal"
 	"syscall"
 	"time"
+
+	"github.com/seer11/sharedWallet/cmd/command"
 )
 
 const closeFallbackTime = 3

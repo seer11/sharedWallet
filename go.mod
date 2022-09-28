@@ -1,4 +1,4 @@
-module github.com/StevenRojas/sharedWallet
+module github.com/seer11/sharedWallet
 
 go 1.17
 

@@ -4,9 +4,10 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/StevenRojas/sharedWallet/config"
-	"github.com/StevenRojas/sharedWallet/pkg/blockchain"
+
 	"github.com/ethereum/go-ethereum/ethclient"
+	"github.com/seer11/sharedWallet/config"
+	"github.com/seer11/sharedWallet/pkg/blockchain"
 	"github.com/spf13/cobra"
 )
 
